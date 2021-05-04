@@ -670,9 +670,7 @@ a {
     color: #373737!important;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -846,6 +844,7 @@ h4 {
 .text-center{
     text-align: center;
 }
+
 .col-sm-12{
     width: 100%;
 }
