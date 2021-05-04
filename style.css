@@ -792,7 +792,12 @@ h4 {
 }
 
 .tc-white {
-    color: #373737!important;
+    color: #FFFFFF!important;
+    font-weight: bold;
+}
+
+.tc-grey{
+    color: #373737;
     font-weight: bold;
 }
 
