@@ -508,6 +508,15 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    line-height: 2.5;
+}
+
+.form-group {
+    line-height: 2.5;
+}
+
+:required:focus{
+    background-color: rgb(209, 217, 221);
 }
 
 .scrollToTop {
