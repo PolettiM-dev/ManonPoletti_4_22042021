@@ -506,9 +506,14 @@ button {
 }
 
 .form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     line-height: 2.5;
+    font-size: 14px;
 }
 
 .form-group {
@@ -657,6 +662,8 @@ h6,
 p,
 label,
 .btn,
+input,
+textarea,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -669,6 +676,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -692,6 +700,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 .h1 {
@@ -833,6 +842,12 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.text-center{
+    text-align: center;
+}
+.col-sm-12{
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -991,6 +1006,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        margin: auto;
     }
     .bloc-sm,
     .bloc-md {
