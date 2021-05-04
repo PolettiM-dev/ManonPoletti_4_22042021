@@ -82,27 +82,37 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" name="form-control" id="name" placeholder="Entrez votre nom et prénom"  size=" 30" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="email" name="form-control" id="email" placeholder="Entrez votre adresse email" size="30" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
+						<label for="connu">
+							Comment nous avez-vous connu ? <br/>
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input type="checkbox" name="moteur de recherche" id="moteur de recherche" required/>
+						<label for="moteur de recherche">Moteur de recherche</label><br/>
+						<input type="checkbox" name="réseaux sociaux" id="réseaux sociaux" required/>
+						<label for="réseaux sociaux">Réseaux sociaux</label><br/>
+						<input type="checkbox" name="milieu professionnel" id="milieu professionnel" required=""/>
+						<label for="milieu professionnel">Milieu professionnel</label><br/>
+						<input type="checkbox" name="bouche à oreille" id="bouche à oreille" required=""/>
+						<label for="bouche à oreille">Bouche à oreille</label><br/>
+						<input type="checkbox" name="autre" id="autre" required=""/>
+						<label for="autre">Autre</label><br/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control" placeholder="Entrez votre message" rows="10" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
